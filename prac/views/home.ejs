@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>EJS Test</title>
+</head>
+<body>
+    <h1>Hello <%= student.name %></h1>
+    <h1>Roll No : <%= student.roll %></h1>
+    <h1>Email: <%= student.email %></h1>
+    
+    <h1>Age : <%= student.age %></h1>
+    <h1>Hobbies:
+    
+    <% for(let i = 0; i < student.hobby.length; i++) { %>
+        <%= student.hobby[i] %>
+    <% } %>
+</h1>
+</body>
+</html>

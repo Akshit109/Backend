@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head><title>Contact</title></head>
+<body>
+  <STYle>
+    
+    .h1 {
+        color: white;
+    }
+
+    .header {
+        background-color: #033a13;
+        padding: 1%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header nav ul {
+        list-style: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+
+    .header nav ul li {
+        margin-right: 2rem;
+    }
+
+    .header nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+
+    }
+
+
+    .header nav ul li a:hover {
+        color: #ddd;
+    }
+
+    .content {
+        padding: 2rem;
+    }
+  </STYle>
+
+  <header class="header">
+        <h1 class="h1">WELCOME TO CONTACT PAGE </h1>
+        <nav>
+            <ul>
+              <li><a href="./home.html">Home</a></li>
+                <li><a href="./main.html">Main</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="./about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+<br>
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br><br>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br><br>
+    
+    <label for="description">Description:</label><br>
+    <textarea id="description" name="description" rows="4" cols="50" required></textarea><br><br>
+    
+    <input type="submit" value="Submit">
+  </form>
+
+</body>
+</html>
